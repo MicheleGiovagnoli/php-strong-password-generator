@@ -25,9 +25,9 @@
             </div>
         </form>
         <div class="password">
-            <span>Lunghezza pass: <?php echo $passwordLength ?></span>
+            <span>Lunghezza pass: <?php echo $passwordLength; ?></span>
             <hr>
-            <span>Password Generata: <?php echo genera_password($passwordLength) ?></span>
+            <span>Password Generata: <?php echo genera_password($passwordLength); ?></span>
         </div>
     </div>
 </body>
